@@ -3,12 +3,22 @@ import React from "react";
 // import "../Navbar/Navbar";
 import Navbar from "./Compnents/Navbar/Navbar";
 import Hero from "./Compnents/Hero/Hero";
+import AboutUs from "./Compnents/AboutUs/AboutUs";
+import Services from "./Compnents/Services/Services";
+import Community from "./Compnents/Community/Community";
+import Clients from "./Compnents/Clients/Clients";
+import Footer from "./Compnents/Footer/Footer";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
+      <AboutUs />
+      <Services />
+      <Community />
+      <Clients />
+      <Footer />
     </>
   );
 };

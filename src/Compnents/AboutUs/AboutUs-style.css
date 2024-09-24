@@ -1,0 +1,16 @@
+.aboutRow {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  padding-right: 5%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUs {
+  width: 100%;
+  padding: 20px;
+}
+.about-content {
+  gap: 2px;
+}

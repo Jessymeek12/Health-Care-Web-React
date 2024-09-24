@@ -1,8 +1,7 @@
-import React from 'react';
 import "./NavBar-style.css";
 import logo from "../../assets/Elderly-logo.png";
 
-const Navbar = () => {
+const Navbar = () => { 
   return (
     <div className='navbar' >
         <img src={logo} alt="" className='navbar-logo' />
